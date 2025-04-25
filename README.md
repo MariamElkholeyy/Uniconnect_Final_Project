@@ -106,7 +106,7 @@ services.AddIdentity<ApplicationUser, IdentityRole>(options => {
 }}}%%
 
 flowchart TD
-    A[📱 Student App] --> B{API Gateway}
+    A[📱Student App] --> B{API Gateway}
     B -->|Authentication| C[🔒 Auth Service]
     B -->|Data Requests| D[🎓 Academic Service]
     B -->|Location| E[🗺️ Mapping Service]
